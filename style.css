@@ -1,0 +1,171 @@
+:root {
+    --cor0: #ebe5c5;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+    
+    --fonte-padrao: arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'Android', cursive;
+    
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a::after {
+    content:url(https://icons.iconarchive.com/icons/google/noto-emoji-objects/16/62976-link-icon.png);
+    width: 2px;
+    height: 2px;   
+}
+
+* > a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--cor5);
+    background-color: var(--cor1);
+}
+
+body {
+    margin: 0px;
+    background-color:var(--cor2);
+    
+}
+
+img { /* centraliza as imagens na tela */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+
+
+/* Cabeçalho  INICIO */
+
+header {
+
+    background-image: linear-gradient(to bottom, #3DDB84, #1A5C38);
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    
+}
+
+header > h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4em;
+}
+
+.menu {
+
+    display:flex;
+    margin: 20px 0 10px 10px;    
+
+}
+
+.menu > a {
+    font: 1.5em;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.menu > a::after {
+    content: none;
+}
+
+.menu > a.hover {
+    background-color: var(--cor2);
+
+}
+
+/* Cabeçalho Fim */
+
+/* corpo do site e conteudo principal INICIO */
+
+main {
+
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 15px 35px 25px;
+    text-align: justify;
+    font: var(--fonte-padrao);
+    font-size: 1.1em;
+    line-height: 1.9;
+    margin: 25px 100px; /* não é isso barra lateral */
+    
+}
+
+main > h1,main > h2  {
+    font-family: idroid;
+    color:#1A5C38
+}
+
+main > h2 {
+    background-image: linear-gradient( to right, #84E1AD, #fff);
+}
+
+main > p {
+    margin: 40px 0px
+}
+
+.video {
+    margin-bottom: 25px;
+}
+
+/* corpo do site e conteudo principal FIM */
+
+/* o aside abaixo de todo o conteudo */
+
+aside {
+    background-color: #96e3b8dc;
+    padding: 25px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    
+}
+
+
+.lista-do-aside {
+    
+    columns: 2; 
+    
+}
+
+
+/* código do footer */
+
+footer {
+    
+    text-align: center;
+    color: black;
+    background-color: #1A5C38;
+    height: 30px;   
+    
+}
+
+footer > p {
+
+    line-height: 30px;
+    width: 100vw;
+    text-align: center;   
+    font-size: 1em;
+}
+
+.link-footer::after {
+    content: none;
+}
+
+.link-footer {
+    text-decoration: none;
+    color:var(--cor1);
+    font:var(--fonte-destaque);
+    font-size: 1.2em;
+    
+
+}
