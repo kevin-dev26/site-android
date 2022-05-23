@@ -4,22 +4,50 @@
     header {
         font-size: 50%;
         width: 100vw;
-        margin:auto;
+        padding: 2px;
+        margin: auto;
+        font-size: 0.8em;
     }
 
     body {
-    width: 100%;    
-    background-color: rgb(0, 191, 255);
+        width: 100%;
     }
 
     main {
         width: 60%;
-        margin:auto;
+        margin: auto;
     }
 
-    img{
+    main > h1, h2 {
+        font-size: 1.2em;
+    }
+
+    img {
         width: 80vw;
         margin: auto;
         align-items: center;
     }
-  }
+
+    aside {
+        font-size: 0.8em;
+    }
+
+    .lista-aside {
+        width: 100vw;
+        width: 50%;
+        columns: 1;
+        margin: auto;
+        padding: 15px 0px;
+    }
+
+    footer {
+        margin-top: 10px;
+        height: 60px;
+        font-size: 0.5em;
+    }
+
+    .link-footer {
+        overflow-wrap: break-word;
+    }
+
+}

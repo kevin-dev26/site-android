@@ -110,15 +110,20 @@ main {
     margin: 0px 75px 25px;    
 }
 
-main > h1,main > h2  {
+main > h1 {
     font-family: var(--fonte-android);
     color:#1A5C38;
     padding-right: 10px;
-    text-indent: 10px
+    text-align: left;
+
 }
 
 main > h2 {
-    background-image: linear-gradient( to right, #84E1AD, #fff);
+    background-image: linear-gradient( to right, var(--cor2), #fff);
+    text-indent: 10px;
+    font-family: var(--fonte-android);
+    color:#1A5C38;
+    padding-right: 10px
 }
 
 main > p {
