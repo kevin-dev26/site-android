@@ -9,7 +9,6 @@
     --fonte-padrao: arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
     --fonte-android: 'Android', cursive;
-    
 }
 
 * {
@@ -37,9 +36,7 @@ a:hover {
 
 body {
     margin: 0px;
-    background-color:var(--cor2);
-    
-    
+    background-color:var(--cor2); 
 }
 
 img { /* centraliza as imagens na tela */
@@ -53,12 +50,10 @@ img { /* centraliza as imagens na tela */
 /* Cabeçalho  INICIO */
 
 header {
-
-    background-image: linear-gradient(to bottom, #3DDB84, #1A5C38);
+    background-image: linear-gradient(to bottom, #3ddc84, #1a5c37);
     margin-top: 20px;
     color: #fff;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 header > h1 {
@@ -67,11 +62,8 @@ header > h1 {
 }
 
 .menu {
-
-    display:flex;
-    
-    margin: 30px 0px 0px 0px;    
-
+    display:flex;    
+    margin: 30px 0px 0px 0px;
 }
 
 .menu > a {
@@ -90,7 +82,6 @@ header > h1 {
 
 .menu > a.hover {
     background-color: var(--cor2);
-
 }
 
 /* Cabeçalho Fim */
@@ -113,17 +104,18 @@ main {
 main > h1 {
     font-family: var(--fonte-android);
     color:#1A5C38;
-    padding-right: 10px;
+    background-image: linear-gradient( to right, var(--cor2), #fff);
+    padding: 5px;
     text-align: left;
-
+    font-size: 25px
 }
 
 main > h2 {
     background-image: linear-gradient( to right, var(--cor2), #fff);
-    text-indent: 10px;
+    text-indent: 5px;
     font-family: var(--fonte-android);
     color:#1A5C38;
-    padding-right: 10px
+    padding: 5px
 }
 
 main > p {
@@ -141,8 +133,7 @@ aside {
     background-color: #96e3b8dc;
     padding: 25px;
     border-radius: 20px;
-    margin-bottom: 25px;
-    
+    margin-bottom: 25px;    
 }
 
 
@@ -150,8 +141,7 @@ aside {
     width: 50%;
     columns: 2;
     margin: auto;
-    padding: 15px 0px;
-   
+    padding: 15px 0px;   
 }
 
 .itens-lista-do-aside {
@@ -163,12 +153,10 @@ aside {
 
 /* código do footer */
 footer {
-    
+    height: 50px;   
     text-align: center;
     color: var(--cor1);
-    background-color: var(--cor5);
-    height: 30px;   
-    
+    background-color: var(--cor5);         
 }
 
 footer > p {
@@ -186,7 +174,6 @@ footer > p {
 .link-footer {
     text-decoration: none;
     color: var(--cor1);
-
 }
 
 .link-footer-kevin {
